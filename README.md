@@ -79,9 +79,9 @@ A documentação canônica permanece neste repositório. Cada ferramenta utiliza
 | Ferramenta | Ponto de partida |
 | --- | --- |
 | ChatGPT | [Passo a passo com links copiáveis, Projetos, arquivos e prompts](ferramentas/chatgpt/README.md) |
-| OpenAI Codex | [Uso local, contexto e instruções AGENTS.md](ferramentas/codex/README.md) |
+| Codex / VS Code com Codex | [Aplicativo, extensão, terminal e instruções AGENTS.md](ferramentas/codex/README.md) |
 | VS Code / GitHub Copilot | [Workspace, instruções e referências de arquivos](ferramentas/copilot/README.md) |
-| Claude Code | [Contexto local e instruções CLAUDE.md](ferramentas/claude/README.md) |
+| Claude / VS Code com Claude Code | [Anexo, extensão, terminal e instruções CLAUDE.md](ferramentas/claude/README.md) |
 | Outras LLMs | [Uso independente de fornecedor](ferramentas/outras-llms/README.md) |
 
 Exemplo de solicitação:
