@@ -8,6 +8,13 @@ O conhecimento é mantido em arquivos versionados, com fontes identificáveis e 
 
 [Começar a consultar](documentacao/fontes/repositorios-e-cidade.md) · [Usar com ChatGPT](ferramentas/chatgpt/README.md) · [Contribuir](governanca/contribuicao.md) · [Conhecer o ecossistema](https://github.com/e-cidade/e-cidade)
 
+## Canais da comunidade
+
+- **Site comunitário:** [site-ecidade.librecode.coop](https://site-ecidade.librecode.coop/)
+- **Grupo no Telegram:** [e-Cidade — comunidade](https://t.me/eCidadeCE)
+
+Acompanhe os canais da comunidade e participe das conversas. Para contribuições técnicas e documentais que precisam de rastreabilidade, utilize issues e Pull Requests conforme o guia de contribuição.
+
 ## Propósito
 
 A continuidade de um software público depende também de conhecimento acessível: como seus componentes se relacionam, quais diferenças existem entre distribuições, onde estão as fontes e como colaborar com segurança.
