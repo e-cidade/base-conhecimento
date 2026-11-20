@@ -43,6 +43,44 @@ Se não houver recuperação, solicite somente o trecho específico que falta.
 Faça primeiro uma análise com evidências e pendências.
 ```
 
+## VS Code com Claude Code: extensão própria
+
+### Instalar e abrir
+
+1. No VS Code, abra **Extensions / Extensões**.
+2. Localize a extensão oficial de **Claude Code**, verificando o publicador e o link de instalação na documentação oficial.
+3. Instale-a e conclua a autenticação solicitada.
+4. Abra a pasta da base por **File → Open Folder**.
+5. Abra o painel da extensão pelo ícone ou pelo comando disponível na paleta de comandos.
+6. Para consultar código, acrescente a pasta do checkout por **File → Add Folder to Workspace** e salve o workspace.
+
+Esse painel é da extensão Claude Code. Selecionar um modelo no Copilot não garante o mesmo comportamento, instruções ou permissões da extensão própria.
+
+### Adicionar contexto e conferir instruções
+
+Abra ECIDADE_CONTEXTO_CHATGPT.md e informe seu caminho no prompt. Use o seletor de arquivos/referências da extensão quando disponível; confirme a leitura efetiva.
+
+```text
+Estou usando Claude Code no VS Code.
+Leia <caminho da base>/ECIDADE_CONTEXTO_CHATGPT.md e CLAUDE.md aplicável.
+Confirme a pasta de trabalho, as instruções carregadas e o commit da base.
+Código alvo: <pasta, repositório e commit>.
+Objetivo: <tarefa>.
+Use o índice para buscar documentos relevantes.
+Cite arquivos realmente lidos e declare limitações.
+Nesta etapa não edite arquivos nem execute migrations.
+```
+
+Não presuma acesso a todas as pastas do workspace. Em WSL, SSH, contêiner ou execução remota, confirme onde a extensão e a tarefa rodam; use caminhos daquele ambiente.
+
+### Revisar e continuar
+
+Na resposta inicial, confira fontes, escopo e revisão. Ao autorizar uma implementação, delimite branch e arquivos; revise o diff no VS Code e os resultados dos testes antes do PR. Instruções de outro repositório não substituem as regras locais do alvo.
+
+Se o painel não aparecer, confira extensão habilitada, conta, janela local/remota e comandos disponíveis. Se um arquivo não for lido, selecione-o explicitamente e teste novamente sem ampliar permissões indiscriminadamente.
+
+Referência oficial: [Claude Code no VS Code](https://code.claude.com/docs/en/vs-code), consultada em 20/11/2026. Roteiro conferido documentalmente; interfaces não testadas em todas as versões.
+
 ## 4. Claude Code no terminal
 
 Instale a ferramenta pelo quickstart oficial e conclua seu login. Evite copiar comandos de instalação antigos sem verificar a orientação atual para seu sistema.
