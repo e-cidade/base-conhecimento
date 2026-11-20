@@ -10,7 +10,7 @@ Registrar repositório, caminho, commit, data, método e limitações. Preservar
 
 A documentação prevalece como referência do conhecimento, mas comportamento deve ser confrontado com código/configuração do alvo. Conflitos precisam ser registrados, não escondidos por escolha silenciosa.
 
-## Consumidores como o Sertão Digital
+## Consumo pela comunidade, instituições, empresas, profissionais e voluntários
 
 | Informação | Autoridade / tratamento |
 | --- | --- |
@@ -20,7 +20,9 @@ A documentação prevalece como referência do conhecimento, mas comportamento d
 | Dados e procedimentos institucionais privados | Fonte autorizada do consumidor; não replicar publicamente |
 | Conversas e respostas de IA | Material derivado sujeito à validação |
 
-O Sertão Digital pode consultar a base como inteligência externa da comunidade. Para usar no e-Cidade-SD ou LegislaGD, registrar commit da base, commit do código alvo, arquivos usados e diferenças. Não presumir que capacidades do catálogo ou de outro fork estejam disponíveis no piloto.
+A comunidade, instituições, empresas, profissionais e voluntários podem consultar e contribuir com esta base como referência compartilhada de conhecimento. Esta política se aplica igualmente a todos os participantes, sem preferência por organizações, prestadores ou distribuições específicas.
+
+Para aplicar o conhecimento em qualquer projeto ou implantação, registrar commit da base, commit do código alvo, arquivos usados e diferenças. Não presumir que capacidades do catálogo ou de outro fork estejam disponíveis no ambiente consumidor.
 
 Um ponteiro na documentação local deve conter URL da base, revisão consultada, escopo e responsável pela atualização. Não é necessário copiar todos os arquivos. Respeitar restrições de licenciamento antes de redistribuir conteúdo; a proposta de licença ainda está pendente.
 
