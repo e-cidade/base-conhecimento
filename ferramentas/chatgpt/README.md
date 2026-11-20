@@ -13,7 +13,13 @@ Verificação documental da interface: **20/11/2026**, com fontes oficiais ao fi
 | Consultar arquivos atuais do GitHub | Integração GitHub, quando disponível e autorizada |
 | Sem acesso à integração | Upload dos arquivos Markdown ou texto copiado |
 
-**Recomendação prática:** use um Projeto para trabalho contínuo. Comece com um conjunto pequeno de documentos e acrescente o código do problema específico.
+**Recomendação prática:** use um Projeto para trabalho contínuo. Comece anexando somente ECIDADE_CONTEXTO_CHATGPT.md. Seu contexto e índice orientam a consulta aos demais documentos conforme a tarefa.
+
+## Arquivo único para começar
+
+Baixe e anexe [ECIDADE_CONTEXTO_CHATGPT.md](../../ECIDADE_CONTEXTO_CHATGPT.md). Ele reúne contexto, regras, instruções para Projetos, prompt inicial e índice completo com links para a documentação.
+
+O anexo permite iniciar a orientação sem preparar vários arquivos. A leitura dos documentos indexados depende de acesso à integração GitHub ou à navegação; quando isso não estiver disponível, solicite apenas a evidência específica necessária.
 
 ## 2. Links para abrir e copiar
 
@@ -46,22 +52,20 @@ https://github.com/e-cidade/base-conhecimento/blob/main/governanca/atualizacao-e
 
 Esses links não conectam nem carregam a base automaticamente no ChatGPT.
 
-## 3. Preparar os documentos no GitHub
+## 3. Baixar o arquivo único
 
-1. Abra o repositório pelo link acima e confira a branch **main**.
-2. Para uma fotografia completa, use **Code → Download ZIP** e extraia no computador. Envie ao ChatGPT os documentos extraídos pertinentes; não dependa da leitura de um ZIP inteiro.
-3. Para um arquivo individual, abra-o e use **Raw** ou a opção de baixar o arquivo bruto disponível no GitHub. Salve como Markdown, evitando salvar a página HTML do navegador.
-4. Registre o commit da base mostrado no GitHub. Para uma referência fixa, abra o arquivo nessa revisão e copie seu link permanente.
-5. Selecione inicialmente README.md, AGENTS.md, documentacao/fontes/repositorios-e-cidade.md e arquitetura/README.md.
-6. Acrescente desenvolvimento/README.md, integracoes/README.md e o código necessário conforme a tarefa.
+1. Abra [ECIDADE_CONTEXTO_CHATGPT.md](../../ECIDADE_CONTEXTO_CHATGPT.md) no GitHub.
+2. Use o botão de **download do arquivo bruto**, ao lado de Raw, e salve o Markdown no computador.
+3. Confira a data e a revisão de referência dentro do arquivo.
+4. Não é necessário baixar ZIP ou reunir vários README.md para começar.
 
-Há vários arquivos chamados README.md. Se for preciso diferenciá-los no upload, use cópias locais como **arquitetura_README.md** e **desenvolvimento_README.md**; informe sempre o caminho original e o commit. Essa renomeação é apenas da cópia enviada, sem alterar a base.
+Enquanto este PR não estiver integrado, use o arquivo da mesma branch exibida neste manual. Após a integração, use a main. O índice distingue links atuais de links fixados na revisão de referência.
 
 ## 4. Conversa comum: passo a passo
 
 1. Entre em [chatgpt.com](https://chatgpt.com/) e abra uma nova conversa.
 2. No campo de mensagem, procure **+**, o clipe ou a opção de adicionar arquivos disponível.
-3. Anexe os documentos selecionados. Aguarde o término do envio.
+3. Anexe somente **ECIDADE_CONTEXTO_CHATGPT.md**. Aguarde o término do envio.
 4. Cole o prompt inicial abaixo e preencha os campos entre sinais de menor/maior.
 5. Confira se a resposta lista os arquivos realmente lidos e as limitações. Se faltar conteúdo, envie o documento específico antes de prosseguir.
 
@@ -73,7 +77,8 @@ Distribuição/repositório alvo: <informar; se for consulta geral, declarar>.
 Commit do código alvo: <informar ou declarar não identificado>.
 Objetivo: <descrever a dúvida>.
 
-Leia os arquivos anexados e confirme quais estão acessíveis.
+Leia ECIDADE_CONTEXTO_CHATGPT.md e use o índice para localizar as fontes pertinentes.
+Confirme quais documentos foram efetivamente recuperados e quais permanecem inacessíveis.
 Use a documentação como referência e confronte afirmações técnicas com o código disponível.
 Cite repositório, caminho e commit de cada conclusão.
 Separe fatos verificados, hipóteses, propostas e pendências.
@@ -81,7 +86,7 @@ Se não houver evidência suficiente, informe o que falta; não invente.
 Nesta tarefa, faça apenas análise.
 ```
 
-Se o upload não estiver disponível, cole trechos relevantes com caminho e commit. Peça conclusões limitadas a esses trechos. Uma resposta baseada apenas em nomes de arquivos não comprova leitura.
+Se o upload não estiver disponível, cole o conteúdo do arquivo de entrada ou trechos relevantes com caminho e commit. Peça conclusões limitadas a esses trechos. Uma resposta baseada apenas em nomes de arquivos não comprova leitura.
 
 ## 5. Projeto no ChatGPT: passo a passo
 
@@ -91,11 +96,12 @@ Se o upload não estiver disponível, cole trechos relevantes com caminho e comm
 2. Informe um nome, por exemplo **e-Cidade — Conhecimento comunitário**, e selecione ícone/cor.
 3. Dentro do Projeto, abra **••• → Configurações do projeto / Project settings**.
 4. No campo de instruções, cole o bloco abaixo e salve.
-5. Na área de fontes/arquivos, adicione os documentos preparados na seção 3.
+5. Na área de fontes/arquivos, adicione somente **ECIDADE_CONTEXTO_CHATGPT.md**, preparado na seção 3.
 6. Inicie uma conversa **dentro desse Projeto** e envie o prompt de conferência da próxima seção.
 
 ```text
-Este Projeto utiliza a Base de Conhecimento comunitária e-Cidade.
+Este Projeto utiliza ECIDADE_CONTEXTO_CHATGPT.md como entrada da Base de Conhecimento comunitária e-Cidade.
+Use o índice desse arquivo para localizar os documentos necessários; não presuma que eles já foram lidos.
 Atenda à comunidade, instituições, empresas, profissionais e voluntários de forma impessoal.
 
 Responda em português brasileiro.
@@ -200,8 +206,8 @@ Entregue texto revisável e descrição de PR; não faça merge.
 ## 8. Atualizar o Projeto e evitar conteúdo antigo
 
 1. Identifique uma nova revisão da base no GitHub.
-2. Baixe os documentos alterados e registre seu commit.
-3. No Projeto, localize as cópias anteriores e substitua o conjunto de referência deliberadamente. Se a interface só permitir adicionar/remover, adicione a nova cópia, confira-a e remova a antiga.
+2. Baixe a cópia atual de ECIDADE_CONTEXTO_CHATGPT.md e confira sua revisão de referência.
+3. No Projeto, localize o arquivo de entrada anterior e substitua-o deliberadamente. Se a interface só permitir adicionar/remover, adicione a nova cópia, confira-a e remova a antiga.
 4. Não presuma substituição automática de arquivos com o mesmo nome.
 5. Avise na conversa qual revisão passa a valer e repita a conferência de contexto.
 6. Preserve decisões anteriores como histórico identificado, sem tratá-las como estado atual.
@@ -222,7 +228,7 @@ Limitações: <arquivos ausentes, acesso parcial, testes não executados>.
 | Situação | Como proceder |
 | --- | --- |
 | O ChatGPT responde sem citar arquivos | Peça a lista de fontes efetivamente lidas e envie os arquivos faltantes |
-| Há vários README.md | Diferencie as cópias e registre os caminhos originais |
+| Não quero anexar vários documentos | Anexe apenas ECIDADE_CONTEXTO_CHATGPT.md e use seu índice para consulta |
 | GitHub conectado, mas repositório ausente | Confira conta, autorização e aprovação da organização |
 | O limite de arquivos foi atingido | Selecione documentos da tarefa e consulte os limites atuais da conta |
 | Há versões conflitantes | Fixe uma revisão e remova/identifique cópias superadas |
