@@ -47,4 +47,6 @@ As listagens de árvores grandes foram limitadas pela API; o inventário registr
 
 ## Situação final
 
-**READY_TO_MERGE: NO.** PR permanece draft para revisão técnica e deliberação comunitária dos bloqueadores. Isso não impede revisar os documentos. Versão v0.1.0 é pretendida, sem release ou tag criada.
+**PRONTO PARA REVISÃO:** encaminhado para revisão e aprovação humana por solicitação do responsável. As pendências de licença, manutenção e canal privado de segurança continuam explícitas e não foram consideradas resolvidas por essa mudança de estado.
+
+**READY_TO_MERGE: NO**, enquanto os bloqueadores de governança acima não forem deliberados. Versão v0.1.0 é pretendida, sem release, tag ou merge executado.
