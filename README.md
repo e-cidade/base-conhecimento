@@ -1,6 +1,6 @@
 # Base de Conhecimento da comunidade e-Cidade
 
-Candidato à **v0.1.0**, em revisão no [PR #1](https://github.com/e-cidade/base-conhecimento/pull/1). Documentação pública, versionada e independente de fornecedor de IA. Pertence à comunidade e-Cidade; consumidores como o Sertão Digital preservam sua autonomia e a autoria das fontes.
+Candidato à **v0.1.0**, em revisão no [PR #1](https://github.com/e-cidade/base-conhecimento/pull/1). Documentação pública, versionada e independente de fornecedor de IA. Pertence à comunidade e-Cidade e destina-se a instituições, empresas, profissionais e voluntários, preservando a autonomia dos participantes e a autoria das fontes.
 
 **Escopo:** auditoria documental e amostral de 19 repositórios em 2026-11-20. Não é homologação de distribuições nem manual universal de instalação do ERP. Licença definitiva pendente de aprovação comunitária.
 
