@@ -6,7 +6,7 @@ Esta base reúne documentação técnica e funcional, referências de código, p
 
 O conhecimento é mantido em arquivos versionados, com fontes identificáveis e revisão por Pull Request. A participação preserva a autoria das contribuições e a autonomia das diferentes linhas de desenvolvimento.
 
-[Começar a consultar](documentacao/fontes/repositorios-e-cidade.md) · [Usar com ChatGPT](ferramentas/chatgpt/README.md) · [Contribuir](governanca/contribuicao.md) · [Conhecer o ecossistema](https://github.com/e-cidade/e-cidade)
+[Arquivo único para ChatGPT](ECIDADE_CONTEXTO_CHATGPT.md) · [Começar a consultar](documentacao/fontes/repositorios-e-cidade.md) · [Usar com ChatGPT](ferramentas/chatgpt/README.md) · [Contribuir](governanca/contribuicao.md) · [Conhecer o ecossistema](https://github.com/e-cidade/e-cidade)
 
 ## Canais da comunidade
 
@@ -71,6 +71,8 @@ Antes de aplicar uma orientação técnica, identifique a distribuição e o com
 | [Atualização e consumo](governanca/atualizacao-e-consumo.md) | Uso comunitário, atualização das fontes e aplicação em outros projetos |
 
 ## Uso com ferramentas de inteligência artificial
+
+Para começar no ChatGPT, baixe e anexe somente [ECIDADE_CONTEXTO_CHATGPT.md](ECIDADE_CONTEXTO_CHATGPT.md). Esse arquivo reúne contexto, orientações, prompt inicial e índice completo dos documentos. As fontes detalhadas são recuperadas conforme a tarefa e a disponibilidade de acesso.
 
 A documentação canônica permanece neste repositório. Cada ferramenta utiliza um adaptador e precisa ter acesso aos arquivos relevantes para a tarefa.
 
