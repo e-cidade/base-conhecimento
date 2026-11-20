@@ -40,6 +40,44 @@ Se a pasta já existir, use a rotina de atualização ao final. Para analisar o 
 
 Abrir uma pasta no editor não garante que um agente remoto enxergue os mesmos arquivos. Confirme se a tarefa roda localmente ou em outro ambiente antes de fornecer caminhos.
 
+## VS Code com Codex: extensão própria
+
+### Instalar e abrir
+
+1. No VS Code, abra **Extensions / Extensões**.
+2. Localize a extensão oficial de **Codex**, verificando o publicador e o link de instalação na documentação oficial.
+3. Instale-a e conclua a autenticação solicitada.
+4. Abra a pasta da base por **File → Open Folder**.
+5. Abra o painel da extensão pelo ícone ou pelo comando disponível na paleta de comandos.
+6. Para consultar código, acrescente a pasta do checkout por **File → Add Folder to Workspace** e salve o workspace.
+
+Esse painel é da extensão Codex. Selecionar um modelo no Copilot não garante o mesmo comportamento, instruções ou permissões da extensão própria.
+
+### Adicionar contexto e conferir instruções
+
+Abra ECIDADE_CONTEXTO_CHATGPT.md e informe seu caminho no prompt. Use o seletor de arquivos/referências da extensão quando disponível; confirme a leitura efetiva.
+
+```text
+Estou usando Codex no VS Code.
+Leia <caminho da base>/ECIDADE_CONTEXTO_CHATGPT.md e AGENTS.md aplicável.
+Confirme a pasta de trabalho, as instruções carregadas e o commit da base.
+Código alvo: <pasta, repositório e commit>.
+Objetivo: <tarefa>.
+Use o índice para buscar documentos relevantes.
+Cite arquivos realmente lidos e declare limitações.
+Nesta etapa não edite arquivos nem execute migrations.
+```
+
+Não presuma acesso a todas as pastas do workspace. Em WSL, SSH, contêiner ou execução remota, confirme onde a extensão e a tarefa rodam; use caminhos daquele ambiente.
+
+### Revisar e continuar
+
+Na resposta inicial, confira fontes, escopo e revisão. Ao autorizar uma implementação, delimite branch e arquivos; revise o diff no VS Code e os resultados dos testes antes do PR. Instruções de outro repositório não substituem as regras locais do alvo.
+
+Se o painel não aparecer, confira extensão habilitada, conta, janela local/remota e comandos disponíveis. Se um arquivo não for lido, selecione-o explicitamente e teste novamente sem ampliar permissões indiscriminadamente.
+
+Referência oficial: [Codex no VS Code](https://developers.openai.com/codex/ide/), consultada em 20/11/2026. Roteiro conferido documentalmente; interfaces não testadas em todas as versões.
+
 ## 4. Terminal
 
 Com a CLI já instalada conforme a documentação oficial:
