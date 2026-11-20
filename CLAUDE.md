@@ -1,3 +1,5 @@
 # Claude Code — e-Cidade
 
-Siga `AGENTS.md` como referência transversal. Consulte `README.md`, `governanca/contribuicao.md` e `ferramentas/claude/README.md`. Não presuma acesso ao código de outras distribuições do e-Cidade. Antes de modificar código, identifique repositório, versão, testes e riscos; apresente plano e valide alterações.
+Leia [AGENTS.md](AGENTS.md), [README](README.md), [contribuição](governanca/contribuicao.md) e [manual Claude](ferramentas/claude/README.md). As regras comuns ficam nesses documentos; este arquivo é um adaptador.
+
+Identifique distribuição e commit, leia as fontes aplicáveis e cite evidências. Não presuma acesso a pastas irmãs ou código ausente. Antes de executar, declare ambiente e efeito dos comandos. Mudanças precisam de validação e revisão humana; produção e operações destrutivas exigem autorização explícita. Não fazer merge nem tag nesta preparação.

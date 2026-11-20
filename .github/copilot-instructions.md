@@ -1,3 +1,5 @@
 # GitHub Copilot — e-Cidade
 
-Responda em português brasileiro. Consulte `AGENTS.md`, `README.md` e a documentação específica pertinente. Não invente APIs, tabelas, fluxos ou requisitos; valide no código da distribuição em uso. Preserve licenças, privacidade e segurança. Proponha alterações mínimas, com testes e revisão humana.
+Use português brasileiro. Leia AGENTS.md, README.md e governanca/contribuicao.md; consulte documentacao/fontes/repositorios-e-cidade.md e ferramentas/copilot/README.md.
+
+Identifique repositório/distribuição/commit antes de concluir. Separe evidência de proposta ou pendência, cite caminhos e valide no código. Não presuma que instruções desta base se aplicam automaticamente a outro repositório do workspace. Não invente APIs, tabelas, requisitos ou compatibilidade. Preserve autoria e licenças; não inclua segredos ou dados reais. Faça alterações mínimas, valide e submeta a revisão humana. Produção e ações destrutivas exigem autorização explícita; esta preparação não autoriza merge ou tag.
